@@ -1,7 +1,7 @@
 const form = document.querySelector('form');
 const btn = document.querySelector('button');
 const h2 = document.querySelector('h2');
-const input = document.querySelector('#link');
+const input = document.querySelector('input[name="link"]');
 const csrfInput = document.querySelector('input');
 
 

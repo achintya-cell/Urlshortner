@@ -13,10 +13,13 @@
         <div class="box">
             <form method="POST">
                 {% csrf_token %}
-                <div id="in"> 
+                <!--<div id="in"> 
                 <label for="link">Enter the URL: </label>
                 <input id="link" type="text" name="link">
                 </div>
+                -->
+                <label for="id_link">Enter URL here : </label>
+                {{form.link}}
                 <button type="submit">Shorten the URL....</button>
             </form>
             <h2>Get it here...</h2>
